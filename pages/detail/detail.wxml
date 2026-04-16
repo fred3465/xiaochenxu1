@@ -1,0 +1,11 @@
+<view class="page">
+  <image class="photo" src="{{cover}}" mode="aspectFill" />
+  <view class="panel">
+    <text class="date">{{date}}</text>
+    <text class="desc">{{desc}}</text>
+    <view class="actions">
+      <view class="btn like {{liked ? 'liked pop' : ''}}" bindtap="toggleLike">❤ 点赞</view>
+      <view class="btn fav {{fav ? 'on' : ''}}" bindtap="toggleFav">★ 收藏</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+.page { min-height: 100vh; padding: 24rpx; }
+.photo {
+  width: 100%; height: 560rpx; border-radius: 28rpx;
+  box-shadow: 0 14rpx 30rpx rgba(40,60,90,.16);
+  animation: zoomIn .45s ease-out;
+}
+@keyframes zoomIn { from { transform: scale(1.04); opacity: .7; } to { transform: scale(1); opacity: 1; } }
+.panel {
+  margin-top: 20rpx; padding: 24rpx; border-radius: 24rpx;
+  background: rgba(255,255,255,.9); box-shadow: 0 10rpx 24rpx rgba(44,68,106,.1);
+}
+.date { font-size: 22rpx; color: #74819a; }
+.desc { display: block; margin-top: 12rpx; font-size: 32rpx; color: #29344d; font-weight: 600; line-height: 1.5; }
+
+.actions { margin-top: 24rpx; display: flex; gap: 16rpx; }
+.btn { flex: 1; text-align: center; padding: 20rpx 0; border-radius: 999rpx; font-size: 28rpx; }
+.like { background: #fff3f4; color: #c15a67; }
+.liked { background: linear-gradient(135deg, #ff7f96, #ff5f7a); color: #fff; }
+.fav { background: #f5f7fb; color: #5e6b84; }
+.fav.on { background: linear-gradient(135deg, #ffd77d, #e8b84e); color: #fff; }
+.pop { animation: pop .26s ease; }
+@keyframes pop { 0%{transform:scale(1)} 50%{transform:scale(1.08)} 100%{transform:scale(1)} }

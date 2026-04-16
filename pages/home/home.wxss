@@ -1,0 +1,40 @@
+.page {
+  min-height: 100vh;
+  padding: 40rpx 30rpx;
+}
+.hero {
+  opacity: 0;
+  transform: translateY(24rpx) scale(0.98);
+  transition: all 520ms cubic-bezier(.2,.8,.2,1);
+  display: flex;
+  align-items: center;
+  padding: 28rpx;
+  border-radius: 28rpx;
+  background: rgba(255,255,255,0.78);
+  box-shadow: 0 12rpx 28rpx rgba(43,63,95,0.08);
+}
+.hero-in { opacity: 1; transform: translateY(0) scale(1); }
+.avatar { width: 120rpx; height: 120rpx; border-radius: 50%; }
+.meta { margin-left: 20rpx; }
+.name { font-size: 34rpx; font-weight: 600; color: #25324a; }
+.sub { margin-top: 8rpx; font-size: 24rpx; color: #6b7892; }
+
+.btn-group { margin-top: 30rpx; display: grid; gap: 20rpx; }
+.glass-btn, .gold-btn { border-radius: 999rpx; height: 86rpx; line-height: 86rpx; border: none; font-size: 30rpx; }
+.glass-btn { background: rgba(255,255,255,0.8); color: #33415c; }
+.gold-btn { background: linear-gradient(135deg, #f8d57e, #e7b84f); color: #fff; }
+
+.card {
+  margin-top: 30rpx;
+  border-radius: 24rpx;
+  background: #fff;
+  padding: 26rpx;
+  box-shadow: 0 14rpx 30rpx rgba(48,66,99,.09);
+}
+.float { animation: cardFloat 2.8s ease-in-out infinite; }
+@keyframes cardFloat {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-6rpx); }
+}
+.card-title { font-size: 30rpx; font-weight: 600; color: #2f3b55; }
+.card-text { margin-top: 12rpx; font-size: 26rpx; color: #5d6a85; line-height: 1.6; }

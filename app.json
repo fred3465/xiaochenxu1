@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/timeline/timeline",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarTitleText": "儿童时光相册",
+    "navigationBarBackgroundColor": "#F7F9FC",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F2F5FB"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
