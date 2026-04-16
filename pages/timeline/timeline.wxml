@@ -1,0 +1,14 @@
+<view class="page">
+  <text class="title">成长时间轴</text>
+  <view class="list">
+    <block wx:for="{{list}}" wx:key="id">
+      <view class="item" bindtap="goDetail" data-item="{{item}}">
+        <image class="cover" src="{{item.cover}}" mode="aspectFill" />
+        <view class="overlay">
+          <text class="date">{{item.date}}</text>
+          <text class="desc">{{item.desc}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
