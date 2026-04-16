@@ -5,19 +5,13 @@ Page({
         id: 1,
         date: "2026-04-06",
         desc: "第一次独立拼好100片拼图",
-        cover: "/assets/images/photo-1.svg"
+        cover: "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1200&q=80"
       },
       {
         id: 2,
         date: "2026-04-11",
         desc: "春游时收集了好多小树叶",
-        cover: "/assets/images/photo-2.svg"
-      },
-      {
-        id: 3,
-        date: "2026-04-15",
-        desc: "睡前讲故事会主动提问题",
-        cover: "/assets/images/photo-3.svg"
+        cover: "https://images.unsplash.com/photo-1476231682828-37e571bc172f?auto=format&fit=crop&w=1200&q=80"
       }
     ]
   },
