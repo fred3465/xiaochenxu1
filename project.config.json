@@ -1,0 +1,16 @@
+{
+  "description": "儿童时光相册 demo",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "appid": "touristappid",
+  "projectname": "xiaochenxu1",
+  "miniprogramRoot": "./"
+}

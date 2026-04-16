@@ -1,0 +1,19 @@
+<view class="page">
+  <view class="hero {{loaded ? 'hero-in' : ''}}">
+    <image class="avatar" src="/assets/images/avatar.svg" mode="aspectFill" />
+    <view class="meta">
+      <text class="name">小星星 · 4岁2个月</text>
+      <text class="sub">记录每一个第一次，每一次长大</text>
+    </view>
+  </view>
+
+  <view class="btn-group">
+    <button class="glass-btn" bindtap="goTimeline">浏览时间轴</button>
+    <button class="gold-btn" bindtap="showToast">回忆播放（Demo）</button>
+  </view>
+
+  <view class="card {{cardFloat ? 'float' : ''}}" bindtap="goTimeline">
+    <view class="card-title">本月成长亮点</view>
+    <view class="card-text">第一次自己系鞋带、会完整背诵《静夜思》。</view>
+  </view>
+</view>
